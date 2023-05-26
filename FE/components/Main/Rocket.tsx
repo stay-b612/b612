@@ -16,7 +16,7 @@ function Rocket() {
   const router = useRouter();
   const user = useRecoilValue(userAtom);
   const { scene, animations } = useGLTF(
-    'https://res.cloudinary.com/dohkkln9r/image/upload/v1680596386/rocket.glb'
+    'https://mmrd-glb.s3.ap-northeast-2.amazonaws.com/common/rocket.glb'
   );
   const [animate, setAnimate] = useState(false);
 

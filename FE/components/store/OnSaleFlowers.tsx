@@ -9,7 +9,7 @@ const RandomBox = () => {
   // eslint-disable-next-line
   const ref = useRef<any>(null);
   const { scene, animations } = useGLTF(
-    'https://res.cloudinary.com/dohkkln9r/image/upload/v1680502259/box.glb'
+    'https://mmrd-glb.s3.ap-northeast-2.amazonaws.com/common/gift_loot_box_thing_wip.glb'
   );
 
   const animate = useRecoilValue(boxAnimateAtom);

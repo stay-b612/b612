@@ -10,7 +10,7 @@ function Square() {
   const isMobile = useMobile();
   const router = useRouter();
   const { scene } = useGLTF(
-    'https://res.cloudinary.com/dohkkln9r/image/upload/v1680596386/square.glb'
+    'https://mmrd-glb.s3.ap-northeast-2.amazonaws.com/common/square.glb'
   );
   const bbox = new Box3().setFromObject(scene);
   const center = bbox.getCenter(new Vector3());

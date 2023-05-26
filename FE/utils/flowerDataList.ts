@@ -1,16 +1,16 @@
 export const FLOWERS_LIST = [
-  'https://res.cloudinary.com/dohkkln9r/image/upload/v1680591018/singing-flower.glb',
-  'https://res.cloudinary.com/dohkkln9r/image/upload/v1680591018/tree.glb',
-  'https://res.cloudinary.com/dohkkln9r/image/upload/v1680591017/icecream.glb',
-  'https://res.cloudinary.com/dohkkln9r/image/upload/v1680591018/pink_tree.glb',
-  'https://res.cloudinary.com/dohkkln9r/image/upload/v1680591017/pokemon.glb',
-  'https://res.cloudinary.com/dohkkln9r/image/upload/v1680591019/box_tree.glb',
-  'https://res.cloudinary.com/dohkkln9r/image/upload/v1680591017/palmtree.glb',
-  'https://res.cloudinary.com/dohkkln9r/image/upload/v1679551338/f1.glb',
-  'https://res.cloudinary.com/dohkkln9r/image/upload/v1680355648/f2.glb',
-  'https://res.cloudinary.com/dohkkln9r/image/upload/v1680826562/flowers/sew1hwtntwwnanpmjkme.glb',
-  'https://res.cloudinary.com/dohkkln9r/image/upload/v1680680280/flowers/master_sword.glb',
-  'https://res.cloudinary.com/dohkkln9r/image/upload/v1680679781/flowers/rose_bouquet.glb',
+  'https://mmrd-glb.s3.ap-northeast-2.amazonaws.com/flowers/singing-flower.glb',
+  'https://mmrd-glb.s3.ap-northeast-2.amazonaws.com/flowers/malcha_choco.glb',
+  'https://mmrd-glb.s3.ap-northeast-2.amazonaws.com/flowers/neon_ice_cream.glb',
+  'https://mmrd-glb.s3.ap-northeast-2.amazonaws.com/flowers/pink_tree.glb',
+  'https://mmrd-glb.s3.ap-northeast-2.amazonaws.com/flowers/diglett.glb',
+  'https://mmrd-glb.s3.ap-northeast-2.amazonaws.com/flowers/tree.glb',
+  'https://mmrd-glb.s3.ap-northeast-2.amazonaws.com/flowers/palm_tree.glb',
+  'https://mmrd-glb.s3.ap-northeast-2.amazonaws.com/flowers/mario_flower.glb',
+  'https://mmrd-glb.s3.ap-northeast-2.amazonaws.com/flowers/christmas.glb',
+  'https://mmrd-glb.s3.ap-northeast-2.amazonaws.com/flowers/happy_flower.glb',
+  'https://mmrd-glb.s3.ap-northeast-2.amazonaws.com/flowers/excalibur_the_sword_of_arthur.glb',
+  'https://mmrd-glb.s3.ap-northeast-2.amazonaws.com/flowers/roses_are_red.glb',
 ];
 
 export const FLOWERS_NAMES = [

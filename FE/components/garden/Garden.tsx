@@ -17,7 +17,7 @@ import { useThree } from '@react-three/fiber';
 function Garden() {
   const ref = useRef<Group | null>(null);
   const { scene, animations } = useGLTF(
-    'https://res.cloudinary.com/dohkkln9r/image/upload/v1680346947/garden.glb'
+    'https://mmrd-glb.s3.ap-northeast-2.amazonaws.com/common/farm_-_free_low_poly_game_objects.glb'
   );
   const selectedFlower = useRecoilValue(selectedFlowerAtom);
   const { actions } = useAnimations(animations, ref);

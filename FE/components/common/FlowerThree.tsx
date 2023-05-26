@@ -30,7 +30,7 @@ function FlowerThree() {
       <Environment
         background
         files={
-          'https://res.cloudinary.com/dohkkln9r/raw/upload/v1680684947/zojcr6dnjg5yj0yldwsp.hdr'
+          'https://mmrd-glb.s3.ap-northeast-2.amazonaws.com/common/sky.hdr'
         }
       />
 

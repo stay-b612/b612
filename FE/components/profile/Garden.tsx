@@ -9,7 +9,7 @@ function Garden() {
   const ref = useRef<Group>(null);
   const setRoomIndex = useSetRecoilState(roomIndexAtom);
   const { scene, animations } = useGLTF(
-    'https://res.cloudinary.com/dohkkln9r/image/upload/v1680768854/ngqsexatoexhsazzjfuh.glb'
+    'https://mmrd-glb.s3.ap-northeast-2.amazonaws.com/common/spring_pond.glb'
   );
   const bbox = new Box3().setFromObject(scene);
   const center = bbox.getCenter(new Vector3());

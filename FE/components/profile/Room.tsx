@@ -26,7 +26,7 @@ export default Room;
 
 function RetroComputer() {
   const computer = useGLTF(
-    'https://res.cloudinary.com/dohkkln9r/image/upload/v1679553079/pptubl9i4bue1pwuchbi.glb'
+    'https://mmrd-glb.s3.ap-northeast-2.amazonaws.com/common/retro_computer_monitor.glb'
   );
   const [roomIndex, setRoomIndex] = useRecoilState(roomIndexAtom);
 
