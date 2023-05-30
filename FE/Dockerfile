@@ -10,6 +10,9 @@ COPY package*.json ./
 # install dependencies
 RUN npm install -g npm@9.6.7
 
+# Install Next.js globally
+RUN npm install -g next
+
 # copy source code
 COPY . .
 
