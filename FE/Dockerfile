@@ -7,6 +7,9 @@ WORKDIR /app
 # copy package.json and package-lock.json
 COPY package*.json ./
 
+RUN apk add --update python make g++\
+   && rm -rf /var/cache/apk/*
+   
 # install dependencies
 RUN npm install
 
