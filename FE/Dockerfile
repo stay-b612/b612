@@ -13,6 +13,8 @@ RUN npm install -g npm@9.6.7
 # Install Next.js globally
 RUN npm install -g next
 
+RUN npm install --save-exact --save-dev typescript @types/react @types/node
+
 # copy source code
 COPY . .
 
